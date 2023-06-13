@@ -1,0 +1,133 @@
+.faculty-hours-container {
+    margin-top: 100px;
+    /* display: flex; */
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    background: linear-gradient(to bottom,#71B280, #134E5E);
+    height: 100vh;
+
+  }
+  .navbar-faculty-hours {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    margin-left: auto;
+
+  }
+  
+  .navbar-faculty-hours a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 1rem;
+  }
+  
+  .navbar-faculty-hours a:hover {
+    color: #ccc;
+  }
+  
+.navbar-faculty-hours {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-faculty-hours li {
+  margin-right: 10px;
+}
+
+.navbar-faculty-hours a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar-faculty-hours a:hover {
+  color: #555;
+}
+.header-faculty-hours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+  }
+  .logo-faculty-hours {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  .logo-image-fh {
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+  }
+  .faculty-hours-bckg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+
+    
+  }
+  
+  .select-dropdown {
+    margin-bottom: 20px;
+  }
+  
+  .select-dropdown select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .details {
+    text-align: center;
+  }
+  
+  .details h2 {
+    margin-bottom: 10px;
+  }
+  
+  .details p {
+    margin-bottom: 5px;
+  }
+  .glow-box {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f7f7f7;
+  }
+  
+  .glow-box select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .glow-box .details {
+    text-align: center;
+  }
+  
+  .glow-box h2 {
+    margin-bottom: 10px;
+  }
+  
+  .glow-box p {
+    margin-bottom: 5px;
+  }
+  .footer-hours {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 300px;
+  }
+  
+  

@@ -1,0 +1,118 @@
+.coe-duty-container {
+    margin-top: 100px;
+    /* display: flex; */
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    background: linear-gradient(to bottom,#71B280, #134E5E);
+
+  }
+  .navbar-coe-duty {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    margin-left: auto;
+
+  }
+  
+  .navbar-coe-duty a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 1rem;
+  }
+  
+  .navbar-coe-duty a:hover {
+    color: #ccc;
+  }
+  
+.navbar-coe-duty {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-coe-duty li {
+  margin-right: 10px;
+}
+
+.navbar-coe-duty a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar-coe-duty a:hover {
+  color: #555;
+}
+.header-coe-duty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 1rem;
+  }
+  .logo-coe-duty {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+  }
+  
+  .logo-image-cd {
+    width: 40px;
+    height: 40px;
+    margin-right: 0.5rem;
+    border-radius: 50%;
+  }
+  .duty-bckg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
+  
+  .duty-bckg-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .duty-bckg-container label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .duty-bckg-container input,
+  .duty-bckg-container select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .duty-bckg-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .duty-bckg-container button:hover {
+    background-color: #555;
+  }
+  .footer-duty {
+    background-color: #f5f5f5;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  

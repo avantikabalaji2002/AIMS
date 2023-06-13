@@ -1,0 +1,123 @@
+.container {
+  height: 100%;
+  min-height: 85vh;
+  width: 100%;
+  background: linear-gradient(to right, #000046, #1cb5e0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Adjust this value based on your layout needs */
+
+}
+.heading {
+  text-align: center;
+  margin-top: 1px;
+}
+
+.innerBox {
+  min-width: 480px;
+  height: fit-content;
+  width: fit-content;
+  background-color: #96e8ff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  animation: glowBorder 3s infinite alternate;
+}
+
+@keyframes glowBorder {
+  0% {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 10px 5px rgb(132, 187, 242);
+  }
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #000000;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: rgb(11, 133, 255);
+}
+
+.button.active {
+  background-color: #2185d0;
+}
+
+.roleSelection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.roleSelection h2 {
+  margin-right: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer .error {
+  font-weight: bold;
+  font-size: 0.875rem;
+  color: #da411b;
+  text-align: center;
+}
+
+.footer button {
+  outline: none;
+  border: none;
+  background-color: rgb(0, 83, 165);
+  color: #fff;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 10px 16px;
+  width: 100%;
+  transition: 100ms;
+  cursor: pointer;
+}
+
+.footer button:disabled {
+  background-color: gray !important;
+}
+
+.footer button:hover {
+  background-color: #1d68b3;
+}
+
+.footer p {
+  font-weight: 700;
+  color: #000;
+}
+
+.footer p span a {
+  font-weight: bold;
+  color: #3961e3;
+  letter-spacing: 1px;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.footer-1 {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin-top: 50px;
+}
+
